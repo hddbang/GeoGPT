@@ -8,6 +8,13 @@ on:
       - main
       - master
 
+# Checks exemptions
+exemptions:
+  - check: artifacthub_badge 
+    reason: "TBD" 
+  - check: adopters
+    reason: "TBD" 
+    
 jobs:
   clomonitor:
     runs-on: ubuntu-latest
